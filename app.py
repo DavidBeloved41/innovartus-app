@@ -29,7 +29,7 @@ HTML = """
 <body>
     <div class="hero">
         <h1>Innovartus Technologies</h1>
-        <p class="tagline">Cloud-native SaaS platform — built for scale</p>
+        <p class="tagline">Cloud-native SaaS platform — v2.0 updated via CI/CD</p>
         <span class="badge">✅ Live on Render</span>
         <span class="badge">🚀 CI/CD Enabled</span>
     </div>
