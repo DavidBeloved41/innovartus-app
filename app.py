@@ -1,7 +1,7 @@
 from flask import Flask, render_template_string
 import datetime
 
-app = Flask(__name__)
+app = Flask(name)
 
 HTML = """
 <!DOCTYPE html>
@@ -80,5 +80,5 @@ def home():
 def health():
     return {"status": "healthy", "service": "Innovartus SaaS", "version": "1.0.0"}
 
-if __name__ == '__main__':
+if __name__ == '_main_':
     app.run(debug=True)
